@@ -5,20 +5,20 @@ A simple Python application to check the status of an Indian Railways PNR using 
 ## Features
 
 * Check the status of any valid 10-digit PNR.
-* Simple command-line interface.
+* Simple web interface using Streamlit.
 * Uses the `requests` library.
-* Easy to configure using environment variables.
-* Keeps API credentials out of the source code.
+* Easy to enter API credentials via the web UI.
 
 ## Requirements
 
 * Python 3.8+
 * `requests`
+* `streamlit`
 
 Install the required dependency:
 
 ```bash
-pip install requests
+pip install -r requirements.txt
 ```
 
 ## Setup
@@ -32,35 +32,14 @@ cd Railway-PNR-Status-Checker
 
 ## Usage
 
-Run the script:
+Run the script using Streamlit:
 
 ```bash
-python pnr_status.py
+streamlit run pnr_status.py
 ```
 
-Example:
-
-```text
-Enter PNR: 1234567890
-```
-
-## Example Output
-
-```text
-==================================================
-PNR Status
-==================================================
-Train: Example Express
-Train No: 12345
-Journey Date: YYYY-MM-DD
-From: Source Station
-To: Destination Station
-
-Passengers:
-Passenger 1: WL 5 -> CNF/B2/35
-```
+This will open the web application in your default browser. Enter your RapidAPI key and the 10-digit PNR number, then click "Check Status".
 
 ## Disclaimer
 
 This project uses a third-party Railway PNR Status API. Data availability, accuracy, and uptime depend on the API provider.
-
