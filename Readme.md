@@ -1,5 +1,7 @@
 # 🚆 Railway PNR Status Checker
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://railway-pnr-status-checker-sz6erhy7zwrotmtwyhujmi.streamlit.app/)
+
 A simple Python application to check the status of an Indian Railways PNR using a RapidAPI-powered Railway PNR Status API.
 
 ## Features
