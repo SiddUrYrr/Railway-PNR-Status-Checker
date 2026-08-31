@@ -1,0 +1,11 @@
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://railway-pnr-status-checker-sz6erhy7zwrotmtwyhujmi.streamlit.app/
+    steps:
+      - uses: actions/checkout@v4
+      - name: Railway-PNR-Status-Checker
+        run: echo "Deploying application..."
+
