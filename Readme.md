@@ -42,6 +42,11 @@ streamlit run pnr_status.py
 
 This will open the web application in your default browser. Enter your RapidAPI key and the 10-digit PNR number, then click "Check Status".
 
+## Deployment
+
+The application is deployed live and can be accessed here:
+[https://railway-pnr-status-checker-sz6erhy7zwrotmtwyhujmi.streamlit.app/](https://railway-pnr-status-checker-sz6erhy7zwrotmtwyhujmi.streamlit.app/)
+
 ## Disclaimer
 
 This project uses a third-party Railway PNR Status API. Data availability, accuracy, and uptime depend on the API provider.
